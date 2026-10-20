@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Policy | Cozy Paws</title>
+
+    <meta name="description" content="Read the Cozy Paws Privacy Policy to learn how Appocalyse handles information when you play our cozy dog-care mobile game.">
+
+    <style>
+        :root {
+            --cream: #fff9f3;
+            --white: #ffffff;
+            --brown: #5a4b44;
+            --muted: #84766d;
+            --teal: #6bb8ad;
+            --teal-dark: #387f76;
+            --peach: #f5e4d9;
+            --border: #eee3da;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 24px;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Nunito", "Trebuchet MS", Arial, sans-serif;
+            background: var(--cream);
+            color: var(--brown);
+            line-height: 1.8;
+        }
+
+        a {
+            color: var(--teal-dark);
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .top-bar {
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            padding: 18px 24px;
+        }
+
+        .nav {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            color: var(--brown);
+        }
+
+        .logo span {
+            color: var(--teal-dark);
+        }
+
+        .back-link {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 64px 20px 48px;
+            background: linear-gradient(180deg, #f5e9df, var(--cream));
+        }
+
+        .paw {
+            font-size: 3.2rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: clamp(2rem, 6vw, 3.3rem);
+            line-height: 1.2;
+            letter-spacing: -1px;
+        }
+
+        .hero p {
+            max-width: 580px;
+            margin: 16px auto 0;
+            color: var(--muted);
+        }
+
+        .date {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 16px;
+            border-radius: 30px;
+            background: var(--white);
+            border: 1px solid var(--border);
+            font-size: 0.85rem;
+        }
+
+        .page-layout {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 36px 20px 70px;
+            display: grid;
+            grid-template-columns: 235px minmax(0, 1fr);
+            gap: 28px;
+            align-items: start;
+        }
+
+        .contents {
+            position: sticky;
+            top: 20px;
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 22px 18px;
+        }
+
+        .contents h2 {
+            font-size: 1rem;
+            margin: 0 0 12px;
+        }
+
+        .contents ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .contents li {
+            margin: 7px 0;
+            font-size: 0.86rem;
+            line-height: 1.5;
+        }
+
+        .content {
+            min-width: 0;
+        }
+
+        .intro,
+        .policy-section,
+        .contact {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 26px;
+            margin-bottom: 18px;
+        }
+
+        .intro {
+            border-top: 4px solid var(--teal);
+        }
+
+        .policy-section h2,
+        .contact h2 {
+            font-size: 1.2rem;
+            line-height: 1.4;
+            margin: 0 0 14px;
+            color: var(--brown);
+        }
+
+        .policy-section p,
+        .intro p,
+        .contact p {
+            margin: 0 0 14px;
+        }
+
+        .policy-section p:last-child,
+        .intro p:last-child,
+        .contact p:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-section ul {
+            padding-left: 22px;
+            margin: 12px 0;
+        }
+
+        .policy-section li {
+            padding-left: 3px;
+            margin: 7px 0;
+        }
+
+        .privacy-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 10px 16px;
+            background: var(--cream);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow-wrap: anywhere;
+        }
+
+        .footer {
+            background: var(--white);
+            border-top: 1px solid var(--border);
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 760px) {
+            .page-layout {
+                grid-template-columns: 1fr;
+                padding: 24px 14px 45px;
+                gap: 18px;
+            }
+
+            .contents {
+                position: static;
+            }
+
+            .contents ol {
+                columns: 2;
+                column-gap: 24px;
+            }
+
+            .hero {
+                padding: 45px 18px 35px;
+            }
+
+            .intro,
+            .policy-section,
+            .contact {
+                padding: 21px;
+                border-radius: 14px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .contents ol {
+                columns: 1;
+            }
+
+            .back-link {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="top-bar">
+        <nav class="nav" aria-label="Main navigation">
+            <a class="logo" href="index.html" aria-label="Cozy Paws home">
+                🐾 COZY <span>PAWS</span>
+            </a>
+
+            <a class="back-link" href="index.html">
+                ← Back to Home
+            </a>
+        </nav>
+    </header>
+
+    <header class="hero">
+        <span class="paw" aria-hidden="true">🐶</span>
+        <h1>Privacy Policy</h1>
+        <p>
+            Your privacy matters to us. Learn how Cozy Paws
+            handles information while you care for your furry friends.
+        </p>
+
+        <div class="date">
+            Effective Date: October 18, 2026
+        </div>
+    </header>
+
+    <main class="page-layout">
+
+        <aside class="contents">
+            <h2>On This Page</h2>
+            <ol>
+                <li><a href="#welcome">Introduction</a></li>
+                <li><a href="#collection">Information We Collect</a></li>
+                <li><a href="#use">How We Use Information</a></li>
+                <li><a href="#purchases">In-App Purchases</a></li>
+                <li><a href="#children">Children's Privacy</a></li>
+                <li><a href="#third-parties">Third-Party Services</a></li>
+                <li><a href="#storage">Data Storage and Deletion</a></li>
+                <li><a href="#security">Data Security</a></li>
+                <li><a href="#rights">Your Privacy Rights</a></li>
+                <li><a href="#changes">Changes to This Policy</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ol>
+        </aside>
+
+        <div class="content">
+
+            <section class="intro" id="welcome">
+                <h2>Welcome to Cozy Paws! 🐾</h2>
+
+                <p>
+                    Cozy Paws is developed and operated by
+                    Appocalyse. This Privacy Policy explains how
+                    Cozy Paws handles information when you play
+                    our mobile game.
+                </p>
+
+                <p>
+                    Cozy Paws is intended for players of all ages.
+                    We respect your privacy and aim to minimize
+                    the information collected through the game.
+                </p>
+            </section>
+
+            <section class="policy-section" id="collection">
+                <h2>1. Information We Collect</h2>
+
+                <p>
+                    Cozy Paws does not require players to create
+                    an account or provide personal information
+                    to play.
+                </p>
+
+                <p>
+                    The game stores gameplay information, such as
+                    virtual coins, inventory, game settings, and
+                    progress, locally on your device.
+                </p>
+
+                <p>
+                    We do not intentionally collect personal
+                    information directly from players through
+                    ordinary gameplay.
+                </p>
+            </section>
+
+            <section class="policy-section" id="use">
+                <h2>2. How We Use Information</h2>
+
+                <p>
+                    Locally stored gameplay information is used
+                    to save your progress, maintain your virtual
+                    coin balance, remember your inventory, and
+                    provide the game's features.
+                </p>
+
+                <p>
+                    We do not use the game to run advertising
+                    campaigns or collect analytics through
+                    separate analytics services.
+                </p>
+            </section>
+
+            <section class="policy-section" id="purchases">
+                <h2>3. In-App Purchases</h2>
+
+                <p>
+                    Cozy Paws offers optional purchases of virtual
+                    coins using real money through Google Play.
+                </p>
+
+                <p>
+                    Payments are processed by Google Play and are
+                    subject to Google's applicable terms and
+                    privacy policy.
+                </p>
+
+                <p>
+                    We do not directly collect or store complete
+                    payment card details through the game. Google
+                    may process transaction and payment information
+                    to complete purchases, prevent fraud, and
+                    provide purchase-related services.
+                </p>
+
+                <p>
+                    Virtual coins are digital items used within
+                    Cozy Paws and have no independent real-world
+                    monetary value.
+                </p>
+
+                <p>
+                    For questions about a purchase or a payment
+                    issue, contact us at
+                    <a href="mailto:appocalyse44445555@mail.com">
+                        appocalyse44445555@mail.com
+                    </a>.
+                </p>
+
+                <p>
+                    Refund requests may need to be submitted through
+                    Google Play, subject to applicable law and
+                    Google's policies.
+                </p>
+            </section>
+
+            <section class="policy-section" id="children">
+                <h2>4. Children's Privacy</h2>
+
+                <p>
+                    Cozy Paws is designed for players of all ages,
+                    including children under 13.
+                </p>
+
+                <p>
+                    The game does not require children to provide
+                    personal information to play. We do not
+                    knowingly request personal information directly
+                    from children through ordinary gameplay.
+                </p>
+
+                <p>
+                    If our information practices change, we will
+                    update this Privacy Policy and implement any
+                    notices, consent procedures, or other
+                    safeguards required by applicable law.
+                </p>
+
+                <p>
+                    Parents and guardians who have questions about
+                    children's privacy may contact us using the
+                    email address provided below.
+                </p>
+            </section>
+
+            <section class="policy-section" id="third-parties">
+                <h2>5. Third-Party Services</h2>
+
+                <p>
+                    Cozy Paws uses Google Play to distribute the
+                    game and process in-app purchases.
+                </p>
+
+                <p>
+                    Google may independently collect and process
+                    information in accordance with its own policies
+                    when you download the game or make a purchase.
+                </p>
+
+                <p>
+                    We do not intentionally integrate separate
+                    advertising, analytics, or crash-reporting
+                    services into the game.
+                </p>
+
+                <p>
+                    For more information about Google's privacy
+                    practices, please review Google's Privacy Policy:
+                </p>
+
+                <a
+                    class="privacy-link"
+                    href="https://policies.google.com/privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Google's Privacy Policy ↗
+                </a>
+            </section>
+
+            <section class="policy-section" id="storage">
+                <h2>6. Data Storage, Retention, and Deletion</h2>
+
+                <p>
+                    Gameplay progress and related game data are
+                    stored locally on your device.
+                </p>
+
+                <p>
+                    This information may be lost if you uninstall
+                    the game, clear its application data, reset your
+                    device, or experience device failure.
+                </p>
+
+                <p>
+                    You can generally remove locally stored game
+                    data by clearing the application's data or
+                    uninstalling the game, subject to your device's
+                    behavior.
+                </p>
+
+                <p>
+                    Google retains purchase and transaction
+                    information according to its own policies
+                    and applicable legal requirements.
+                </p>
+            </section>
+
+            <section class="policy-section" id="security">
+                <h2>7. Data Security</h2>
+
+                <p>
+                    We aim to minimize the information handled by
+                    Cozy Paws and take reasonable steps to protect
+                    information within our control.
+                </p>
+
+                <p>
+                    No method of electronic storage or transmission
+                    can be guaranteed to be completely secure.
+                </p>
+            </section>
+
+            <section class="policy-section" id="rights">
+                <h2>8. Your Privacy Rights</h2>
+
+                <p>
+                    Depending on your location and applicable law,
+                    you may have rights concerning personal
+                    information, including the right to request
+                    access, correction, or deletion.
+                </p>
+
+                <p>
+                    Parents and legal guardians may contact us
+                    with questions or requests relating to a
+                    child's privacy.
+                </p>
+
+                <p>
+                    To make a privacy request, contact us at:
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:appocalyse44445555@mail.com">
+                        appocalyse44445555@mail.com
+                    </a>
+                </p>
+
+                <p>
+                    We will review and respond to requests in
+                    accordance with applicable law.
+                </p>
+            </section>
+
+            <section class="policy-section" id="changes">
+                <h2>9. Changes to This Privacy Policy</h2>
+
+                <p>
+                    We may update this Privacy Policy if the game's
+                    features, information practices, or legal
+                    requirements change.
+                </p>
+
+                <p>
+                    Any revised policy will include an updated
+                    effective date and will be made available
+                    through an appropriate public webpage and,
+                    where applicable, within the game.
+                </p>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>10. Contact Us 💌</h2>
+
+                <p>
+                    If you have questions about this Privacy Policy
+                    or Cozy Paws' privacy practices, please contact us.
+                </p>
+
+                <p>
+                    <strong>Developer:</strong> Appocalypse Studio
+                </p>
+
+                <p>
+                    <strong>Game:</strong> Cozy Paws
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:appocalyse44445555@mail.com">
+                        appocalyse44445555@mail.com
+                    </a>
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>🐾 Made with love for you and your furry friends.</p>
+        <p>© 2026 Appocalypse Studio. All rights reserved.</p>
+
+        <p>
+            <a href="index.html">Home</a>
+            &nbsp; · &nbsp;
+            <a href="cozypawsTerms.html">Terms of Service</a>
+        </p>
+    </footer>
+
+</body>
+</html>

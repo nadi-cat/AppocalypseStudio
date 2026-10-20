@@ -1,0 +1,724 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Terms of Service | Cozy Paws</title>
+
+    <meta name="description" content="Read the Terms of Service for Cozy Paws, a cozy dog-care mobile game.">
+
+    <style>
+        :root {
+            --cream: #fff9f3;
+            --white: #ffffff;
+            --brown: #5a4b44;
+            --muted: #84766d;
+            --teal: #6bb8ad;
+            --teal-dark: #387f76;
+            --peach: #f5e4d9;
+            --border: #eee3da;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 24px;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Nunito", "Trebuchet MS", Arial, sans-serif;
+            background: var(--cream);
+            color: var(--brown);
+            line-height: 1.8;
+        }
+
+        a {
+            color: var(--teal-dark);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .top-bar {
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            padding: 18px 24px;
+        }
+
+        .nav {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            color: var(--brown);
+        }
+
+        .logo span {
+            color: var(--teal-dark);
+        }
+
+        .back-link {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 64px 20px 48px;
+            background: linear-gradient(180deg, #f5e9df, var(--cream));
+        }
+
+        .paw {
+            font-size: 3.2rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: clamp(2rem, 6vw, 3.3rem);
+            line-height: 1.2;
+            letter-spacing: -1px;
+        }
+
+        .hero p {
+            max-width: 580px;
+            margin: 16px auto 0;
+            color: var(--muted);
+        }
+
+        .date {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 16px;
+            border-radius: 30px;
+            background: var(--white);
+            border: 1px solid var(--border);
+            font-size: 0.85rem;
+        }
+
+        .page-layout {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 36px 20px 70px;
+            display: grid;
+            grid-template-columns: 235px minmax(0, 1fr);
+            gap: 28px;
+            align-items: start;
+        }
+
+        .contents {
+            position: sticky;
+            top: 20px;
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 22px 18px;
+        }
+
+        .contents h2 {
+            font-size: 1rem;
+            margin: 0 0 12px;
+        }
+
+        .contents ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .contents li {
+            margin: 7px 0;
+            font-size: 0.86rem;
+            line-height: 1.5;
+        }
+
+        .content {
+            min-width: 0;
+        }
+
+        .intro,
+        .terms-section,
+        .contact {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 26px;
+            margin-bottom: 18px;
+        }
+
+        .intro {
+            border-top: 4px solid var(--teal);
+        }
+
+        .terms-section h2,
+        .contact h2 {
+            font-size: 1.2rem;
+            line-height: 1.4;
+            margin: 0 0 14px;
+            color: var(--brown);
+        }
+
+        .terms-section p,
+        .intro p,
+        .contact p {
+            margin: 0 0 14px;
+        }
+
+        .terms-section p:last-child,
+        .intro p:last-child,
+        .contact p:last-child {
+            margin-bottom: 0;
+        }
+
+        .terms-section ul {
+            padding-left: 22px;
+            margin: 12px 0;
+        }
+
+        .terms-section li {
+            padding-left: 3px;
+            margin: 7px 0;
+        }
+
+        .subheading {
+            font-size: 1rem;
+            margin: 22px 0 8px;
+        }
+
+        .footer {
+            background: var(--white);
+            border-top: 1px solid var(--border);
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 760px) {
+            .page-layout {
+                grid-template-columns: 1fr;
+                padding: 24px 14px 45px;
+                gap: 18px;
+            }
+
+            .contents {
+                position: static;
+            }
+
+            .contents ol {
+                columns: 2;
+                column-gap: 24px;
+            }
+
+            .hero {
+                padding: 45px 18px 35px;
+            }
+
+            .intro,
+            .terms-section,
+            .contact {
+                padding: 21px;
+                border-radius: 14px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .contents ol {
+                columns: 1;
+            }
+
+            .back-link {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="top-bar">
+        <nav class="nav" aria-label="Main navigation">
+            <a class="logo" href="index.html" aria-label="Cozy Paws home">
+                🐾 COZY <span>PAWS</span>
+            </a>
+
+            <a class="back-link" href="index.html">
+                ← Back to Home
+            </a>
+        </nav>
+    </header>
+
+    <header class="hero">
+        <span class="paw" aria-hidden="true">🐶</span>
+        <h1>Terms of Service</h1>
+        <p>
+            A few important things to know before enjoying your
+            cozy little world with your furry friends.
+        </p>
+        <div class="date">
+            Effective Date: October 18, 2026
+            <br>
+            Last Updated: October 18, 2026
+        </div>
+    </header>
+
+    <main class="page-layout">
+
+        <aside class="contents">
+            <h2>On This Page</h2>
+            <ol>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#eligibility">Children's Use</a></li>
+                <li><a href="#license">License</a></li>
+                <li><a href="#virtual-items">Virtual Items</a></li>
+                <li><a href="#purchases">Purchases</a></li>
+                <li><a href="#progress">Game Progress</a></li>
+                <li><a href="#updates">Updates</a></li>
+                <li><a href="#intellectual-property">Intellectual Property</a></li>
+                <li><a href="#conduct">Prohibited Conduct</a></li>
+                <li><a href="#termination">Termination</a></li>
+                <li><a href="#warranties">Warranties</a></li>
+                <li><a href="#liability">Liability</a></li>
+                <li><a href="#changes">Changes to Terms</a></li>
+                <li><a href="#law">Governing Law</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ol>
+        </aside>
+
+        <div class="content">
+
+            <section class="intro" id="welcome">
+                <h2>Welcome to Cozy Paws! 🐾</h2>
+                <p>
+                    These Terms of Service (“Terms”) govern your use
+                    of the Cozy Paws mobile game (“Game”), developed
+                    and operated by Appocalypse Studio.
+                </p>
+                <p>
+                    By downloading, installing, or playing Cozy Paws,
+                    you agree to these Terms. If you do not agree,
+                    please discontinue using the Game.
+                </p>
+                <p>
+                    Cozy Paws is intended for players of all ages.
+                    If you are a parent or legal guardian, please
+                    review these Terms with your child as appropriate.
+                </p>
+            </section>
+
+            <section class="terms-section" id="eligibility">
+                <h2>1. Eligibility and Children's Use</h2>
+                <p>
+                    Cozy Paws is designed for a general audience,
+                    including children.
+                </p>
+                <p>
+                    Children should obtain permission from a parent
+                    or legal guardian before making purchases or
+                    taking actions that require parental approval.
+                </p>
+                <p>
+                    Parents and guardians are responsible for
+                    supervising their children's use of the Game and
+                    device-level purchasing settings, to the extent
+                    permitted by applicable law.
+                </p>
+                <p>
+                    Nothing in these Terms removes any rights or
+                    protections provided to children or consumers
+                    by applicable law.
+                </p>
+            </section>
+
+            <section class="terms-section" id="license">
+                <h2>2. License to Use the Game</h2>
+                <p>
+                    We grant you a limited, personal, non-exclusive,
+                    non-transferable, and revocable license to
+                    download and use Cozy Paws for personal,
+                    non-commercial entertainment, subject to these
+                    Terms and the applicable app store's rules.
+                </p>
+                <p>You may not:</p>
+                <ul>
+                    <li>Copy, reproduce, distribute, or commercially exploit the Game without our written permission.</li>
+                    <li>Modify, adapt, or create derivative works from the Game except where permitted by law.</li>
+                    <li>Reverse engineer, decompile, or disassemble the Game except where applicable law permits it.</li>
+                    <li>Attempt to interfere with the Game's security, operation, or integrity.</li>
+                    <li>Use cheats, exploits, unauthorized modifications, or automated tools to manipulate gameplay or purchases.</li>
+                    <li>Use the Game for unlawful purposes.</li>
+                </ul>
+                <p>
+                    All rights not expressly granted in these Terms
+                    are reserved by us or our respective licensors.
+                </p>
+            </section>
+
+            <section class="terms-section" id="virtual-items">
+                <h2>3. Virtual Coins and Digital Items</h2>
+                <p>
+                    Cozy Paws may offer virtual coins, accessories,
+                    cosmetic items, backgrounds, and other digital
+                    content.
+                </p>
+                <p>
+                    Virtual coins may be earned through gameplay or
+                    obtained through optional in-app purchases.
+                </p>
+                <p>Virtual coins and digital items:</p>
+                <ul>
+                    <li>Are intended solely for use within Cozy Paws.</li>
+                    <li>Have no independent real-world monetary value.</li>
+                    <li>Cannot be exchanged for cash or redeemed for real-world goods or services.</li>
+                    <li>Cannot be sold, transferred, or traded for real money outside the Game.</li>
+                    <li>Do not represent a deposit, bank balance, or ownership interest.</li>
+                    <li>May be subject to gameplay rules, availability, and technical limitations.</li>
+                </ul>
+                <p>
+                    Purchasing virtual coins does not give you
+                    ownership of the Game, its underlying software,
+                    or its intellectual property.
+                </p>
+                <p>
+                    We may adjust the balance, availability, or
+                    functionality of virtual items as reasonably
+                    necessary to maintain or improve the Game, comply
+                    with law, or address technical issues. We will
+                    respect any applicable consumer rights and
+                    obligations relating to purchased digital content.
+                </p>
+                <p>
+                    We will not arbitrarily remove purchased virtual
+                    items without regard to applicable law.
+                </p>
+            </section>
+
+            <section class="terms-section" id="purchases">
+                <h2>4. In-App Purchases</h2>
+                <p>
+                    Cozy Paws may offer optional purchases using
+                    real money, including virtual coin bundles and
+                    other digital items.
+                </p>
+                <p>
+                    All applicable prices and purchase details will
+                    be displayed by the relevant app store or payment
+                    provider before the transaction is completed.
+                </p>
+                <p>
+                    By completing a purchase, you authorize the
+                    applicable payment provider to process the
+                    transaction according to its terms and your
+                    payment settings.
+                </p>
+                <p>
+                    Depending on the platform, purchases may be
+                    processed through Google Play, the Apple App Store,
+                    or another authorized provider.
+                </p>
+                <p>
+                    We do not directly receive or store your complete
+                    payment card number through the Game when payment
+                    is processed entirely by the app store.
+                </p>
+
+                <h3 class="subheading">4.1 Parental Permission</h3>
+                <p>
+                    If you are under the age required to make a
+                    purchase independently, you must obtain permission
+                    from your parent or legal guardian before
+                    purchasing virtual coins or other paid content.
+                </p>
+                <p>
+                    Parents and guardians should use available device
+                    and app-store parental controls to help prevent
+                    unauthorized purchases.
+                </p>
+
+                <h3 class="subheading">4.2 Refunds</h3>
+                <p>
+                    All refund requests are subject to applicable law
+                    and the refund procedures of the relevant app
+                    store or payment provider.
+                </p>
+                <p>
+                    Where a purchase was processed through Google
+                    Play or the Apple App Store, you may need to
+                    submit your refund request through that platform.
+                </p>
+                <p>
+                    Nothing in these Terms limits any mandatory
+                    refund rights, statutory consumer protections,
+                    or other rights that apply to your purchase.
+                </p>
+
+                <h3 class="subheading">4.3 Purchase Errors</h3>
+                <p>
+                    If a payment is completed but the purchased
+                    content does not appear in the Game, please
+                    contact us using the contact information provided
+                    at the end of these Terms.
+                </p>
+                <p>
+                    Please include relevant transaction information
+                    from the app store, but do not send full payment
+                    card details or passwords.
+                </p>
+                <p>
+                    We will investigate reported purchase issues
+                    and provide an appropriate resolution where
+                    required by applicable law or our obligations
+                    to you.
+                </p>
+            </section>
+
+            <section class="terms-section" id="progress">
+                <h2>5. Game Progress and Availability</h2>
+                <p>
+                    Your game progress, coins, inventory, and other
+                    gameplay data may depend on your device, the
+                    version of the Game, and the saving features
+                    available in the Game.
+                </p>
+                <p>
+                    Unless a cloud-saving feature is specifically
+                    provided, we do not promise that your progress
+                    will automatically transfer between devices.
+                </p>
+                <p>
+                    Uninstalling the Game, resetting your device,
+                    clearing application data, or experiencing
+                    device failure may result in loss of locally
+                    stored progress or virtual items.
+                </p>
+                <p>
+                    We may release updates, change features, fix bugs,
+                    or discontinue particular features. We will
+                    comply with applicable legal requirements when
+                    doing so.
+                </p>
+                <p>
+                    We do not guarantee that the Game will always
+                    be available, error-free, or compatible with
+                    every device.
+                </p>
+            </section>
+
+            <section class="terms-section" id="updates">
+                <h2>6. Updates and Compatibility</h2>
+                <p>
+                    We may provide updates to improve performance,
+                    introduce new content, address security issues,
+                    or maintain compatibility with supported
+                    operating systems.
+                </p>
+                <p>
+                    Some features may require a minimum operating
+                    system version or an updated version of the Game.
+                </p>
+                <p>
+                    You are responsible for maintaining a compatible
+                    device and installing updates where necessary
+                    to use the Game.
+                </p>
+            </section>
+
+            <section class="terms-section" id="intellectual-property">
+                <h2>7. Intellectual Property</h2>
+                <p>
+                    The Game, including its software, artwork,
+                    graphics, characters, user interface, audio,
+                    branding, and other original content, is owned
+                    by us or licensed to us and is protected by
+                    applicable intellectual property laws.
+                </p>
+                <p>
+                    Except as expressly permitted by law or with our
+                    written permission, you may not reproduce,
+                    redistribute, sell, or commercially exploit
+                    our intellectual property.
+                </p>
+                <p>
+                    Nothing in these Terms transfers ownership of
+                    our intellectual property to you.
+                </p>
+            </section>
+
+            <section class="terms-section" id="conduct">
+                <h2>8. Prohibited Conduct</h2>
+                <p>You agree not to:</p>
+                <ul>
+                    <li>Use the Game in violation of applicable law.</li>
+                    <li>Attempt to bypass purchase verification or payment systems.</li>
+                    <li>Manipulate virtual currency through unauthorized methods.</li>
+                    <li>Disrupt or interfere with the Game or its infrastructure.</li>
+                    <li>Exploit software vulnerabilities for unauthorized benefit.</li>
+                    <li>Misrepresent yourself as the developer or an authorized representative of Cozy Paws.</li>
+                </ul>
+                <p>
+                    We may take reasonable measures to address misuse,
+                    fraud, security threats, or serious violations
+                    of these Terms, subject to applicable law.
+                </p>
+            </section>
+
+            <section class="terms-section" id="termination">
+                <h2>9. Termination</h2>
+                <p>
+                    You may stop using Cozy Paws at any time by
+                    uninstalling the Game.
+                </p>
+                <p>
+                    Where reasonably necessary because of fraud,
+                    serious misuse, security concerns, legal
+                    obligations, or discontinuation of the Game,
+                    we may suspend or terminate access to relevant
+                    features or the Game, subject to applicable law.
+                </p>
+                <p>
+                    Termination does not eliminate any rights you
+                    have under applicable consumer protection laws.
+                </p>
+                <p>
+                    The treatment of purchased digital items
+                    following termination or discontinuation will
+                    be subject to applicable law and any rights
+                    or remedies available to you.
+                </p>
+            </section>
+
+            <section class="terms-section" id="warranties">
+                <h2>10. Disclaimer of Warranties</h2>
+                <p>
+                    To the extent permitted by applicable law,
+                    Cozy Paws is provided on an “as available” basis.
+                </p>
+                <p>
+                    We do not guarantee that the Game will be
+                    uninterrupted, error-free, or free of all defects.
+                </p>
+                <p>
+                    Any warranties that cannot legally be excluded
+                    remain in effect.
+                </p>
+            </section>
+
+            <section class="terms-section" id="liability">
+                <h2>11. Limitation of Liability</h2>
+                <p>
+                    To the extent permitted by applicable law, we
+                    will not be liable for indirect, incidental,
+                    special, or consequential losses arising from
+                    your use of the Game.
+                </p>
+                <p>
+                    Nothing in these Terms excludes or limits
+                    liability where such exclusion or limitation
+                    is prohibited by law, including liability for
+                    fraud, intentional misconduct, or other
+                    liability that cannot legally be limited.
+                </p>
+                <p>
+                    Nothing in this section removes any non-waivable
+                    consumer rights.
+                </p>
+            </section>
+
+            <section class="terms-section" id="changes">
+                <h2>12. Changes to These Terms</h2>
+                <p>
+                    We may update these Terms when the Game, our
+                    services, or applicable legal requirements change.
+                </p>
+                <p>
+                    We will make the updated Terms available through
+                    an appropriate location, such as the Game's
+                    settings menu or our published Terms of Service
+                    webpage.
+                </p>
+                <p>
+                    The revised effective date will appear at the
+                    beginning of the updated Terms.
+                </p>
+                <p>
+                    Your continued use of the Game after updated
+                    Terms become effective will be subject to
+                    applicable law and any consent requirements
+                    that apply to material changes.
+                </p>
+            </section>
+
+            <section class="terms-section" id="law">
+                <h2>13. Governing Law</h2>
+                <p>
+                    These Terms are subject to the laws applicable
+                    to the Game's developer and the user's location,
+                    without limiting any mandatory consumer
+                    protections that apply in the user's jurisdiction.
+                </p>
+                <p>
+                    Where required, disputes will be handled by
+                    courts with appropriate jurisdiction under
+                    applicable law.
+                </p>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>14. Contact Information 💌</h2>
+                <p>
+                    Have a question about Cozy Paws, these Terms,
+                    or an in-app purchase? We'd love to hear from you.
+                </p>
+                <p>
+                    <strong>Developer:</strong>
+                    Appocalypse Studio
+                </p>
+                <p>
+                    <strong>Support Email:</strong>
+                    <a href="mailto:[Your Support Email Address]">
+                        [Your Support Email Address]
+                    </a>
+                </p>
+                <p>
+                    <strong>Privacy Policy:</strong>
+                    <a href="cozypawsPolicy.html">
+                        Read our Privacy Policy
+                    </a>
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>🐾 Made with love for you and your furry friends.</p>
+        <p>© 2026 Appocalypse Studio. All rights reserved.</p>
+        <p>
+            <a href="index.html">Home</a>
+            &nbsp; · &nbsp;
+            <a href="cozypawsPolicy.html">Privacy Policy</a>
+        </p>
+    </footer>
+
+</body>
+</html>
